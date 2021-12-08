@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--1: Chèn mã Javascript vào trong thẻ <button> để hiển thị một lời chào khi người dùng nhấn chuột vào nút đó.-->
+<button type="button" onclick="alert('Xin chào!');">Click me!</button>
+<!--2:Sử dụng thẻ <script> và khai báo một hàm đơn giản. Gọi hàm này khi người dùng nhấn chuột vào nút.-->
+<button type="button" onclick="showMessage();">Click me!</button>
+<script>
+    function showMessage(){
+        alert('Xin chào!');
+    }
+</script>
+<!--3: Hãy tách đoạn mã Javascript ở Bài tập 2 ra một file Javascript riêng và nhúng vào trang HTML.-->
+<button type="button" onclick="showMessage();">Click me!</button>
+<script src="index.js"></script>
+</body>
+</html>
